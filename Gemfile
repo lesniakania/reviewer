@@ -36,3 +36,9 @@ gem 'jquery-rails'
 
 # To use debugger
 # gem 'debugger'
+
+group :test do
+  gem 'rspec'
+  gem 'rspec-rails'
+  gem 'mocha'
+end
