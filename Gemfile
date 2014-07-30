@@ -42,3 +42,12 @@ group :test do
   gem 'rspec-rails'
   gem 'mocha'
 end
+
+group :development do
+  gem 'spork'
+  gem 'guard'
+  gem 'guard-spork'
+  gem 'guard-rspec'
+  gem 'guard-rails'
+  gem 'guard-bundler'
+end
